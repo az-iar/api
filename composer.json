@@ -57,14 +57,9 @@
     "repositories": [
         {
             "type":"git",
-            "url": "https://github.com/az-iar/blueprint"
+            "url": "https://github.com/az-iar/blueprint.git"
         }
     ],
-    "extra": {
-        "branch-alias": {
-            "dev-master": "1.0-dev"
-        }
-    },
     "minimum-stability": "dev",
     "prefer-stable": true
 }
