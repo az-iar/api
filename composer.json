@@ -16,7 +16,7 @@
     ],
     "require": {
         "php": "^5.5.9 || ^7.0",
-        "dingo/blueprint": "dev-master",
+        "az-iar/blueprint": "dev-master",
         "illuminate/routing": "^5.3",
         "illuminate/support": "^5.3",
         "league/fractal": ">=0.12.0"
@@ -54,6 +54,12 @@
             "Dingo\\Api\\Tests\\": "tests/"
         }
     },
+    "repositories": [
+        {
+            "type":"git",
+            "url": "https://github.com/az-iar/blueprint"
+        }
+    ],
     "extra": {
         "branch-alias": {
             "dev-master": "1.0-dev"
